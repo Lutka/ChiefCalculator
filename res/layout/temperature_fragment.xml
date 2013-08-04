@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroun_nd" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff" >
+
+        <View
+            android:id="@+id/middleLine"
+            android:layout_width="5dp"
+            android:layout_height="0dp"
+            android:layout_centerHorizontal="true"
+            android:background="#000" />
+
+        <Spinner
+            android:id="@+id/temperatureValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@id/middleLine"
+            android:textAlignment="center" />
+
+        <Spinner
+            android:id="@+id/tempType"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/temperatureValue"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@id/middleLine" />
+
+        <TextView
+            android:id="@+id/fahrenheit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/temperatureValue"
+            android:layout_toLeftOf="@id/middleLine"
+            android:background="@color/backgroun_nd"
+            android:padding="@dimen/tv_padding"
+            android:text="@string/fahrenheit"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/fahrenheitValue"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/fahrenheit"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@id/middleLine"
+            android:background="@color/backgroun_nd"
+            android:hint="F value"
+            android:padding="@dimen/tv_padding"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/celsius"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/fahrenheit"
+            android:layout_toLeftOf="@id/middleLine"
+            android:padding="@dimen/tv_padding"
+            android:text="@string/celsius"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/celsiusValue"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/celsius"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/fahrenheitValue"
+            android:layout_toRightOf="@id/middleLine"
+            android:hint="C value"
+            android:padding="@dimen/tv_padding"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/gas_mark"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/celsius"
+            android:layout_toLeftOf="@id/middleLine"
+            android:background="@color/backgroun_nd"
+            android:padding="@dimen/tv_padding"
+            android:text="@string/gas_mark"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/gasValue"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/gas_mark"
+            android:layout_below="@id/celsiusValue"
+            android:layout_toRightOf="@id/middleLine"
+            android:background="@color/backgroun_nd"
+            android:hint="G value"
+            android:padding="@dimen/tv_padding"
+            android:textSize="25dp" />
+
+        <!--
+              <TextView
+			android:id="@+id/cooking_instruction"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_alignParentLeft="true"
+			android:layout_below="@id/gas_mark"
+			android:layout_toLeftOf="@id/middleLine"
+			android:text="Cooking instructions"
+			android:textSize="25dp"
+			android:padding="@dimen/tv_padding" />
+        -->
+
+        <TextView
+            android:id="@+id/cooking_instruction_value"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/gasValue"
+            android:gravity="center"
+            android:padding="@dimen/tv_padding"
+            android:textSize="25dp" />
+    </RelativeLayout>
+
+</ScrollView>

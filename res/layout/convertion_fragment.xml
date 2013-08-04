@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <View android:id="@+id/centerLine"
+        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_centerHorizontal="true"/>
+    
+        <EditText
+            android:id="@+id/editAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@id/centerLine"
+            android:text="1"
+            android:ems="10" 
+            android:hint="0"
+            android:gravity="center"
+            android:inputType="numberDecimal"/>
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/outMeasurement"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/outMeasurement"
+        android:layout_below="@+id/editAmount"
+        android:layout_toLeftOf="@id/centerLine"
+        android:gravity="center"
+        android:text="Result"
+        android:textStyle="bold" />
+    
+    <Spinner android:id="@+id/inMeasurement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/centerLine"/>
+    
+    <Spinner android:id="@+id/outMeasurement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/centerLine"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/inMeasurement"/>
+
+</RelativeLayout>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+     <string name="app_name">Kalkulator Kuchenny</string>
+    <string name="title_section3">Drożdże</string>
+    <string name="title_section2">Temperatury</string>
+    <string name="title_section1">Produkty</string>
+    <string name="menu_settings">Ustawienia</string>
+    
+     <string name = "product">Produkt</string>
+    <string name = "from">Ilość</string>
+    <string name = "to">Przelicz na</string>
+    
+     <string name="mililitr">ml</string>
+    <string name="tea_spoon">łyżeczka</string>
+    <string name="table_spoon">łyżka</string>
+     <string name="oz_uk">oz (UK)</string>
+    <string name="oz_us">oz (US)</string>
+     <string name="cup_us">cup (US)</string>
+    <string name="cup_uk">cup (UK)</string> 
+    <string name="glass">szklanka</string>     
+    <string name="litr">l</string>  
+   <string name="pint_uk">pint (UK)</string>
+    <string name="pint_us">pint (US)</string>
+    <string name="quart_us">quart (US)</string>
+    <string name="quart_uk">quart (UK)</string>
+    
+    <string name="miligram">mg</string>
+    <string name="gram">g</string>
+    <string name="dekagram">dag</string>
+    <string name="pound">lb</string>
+	<string name="kilogram">kg</string>
+	<string name="stone">stone</string>
+	
+		
+	<string name = "bean">fasola</string>
+	<string name = "pea">groch</string>		
+	<string name = "lentil">soczewica</string> <!-- soczewica -->	
+	<string name = "chickpeas">ciecierzyca</string>
+	<string name = "poppy_seed">mak</string>
+	
+	<string name = "pumpkin_seed">dynia, pestki</string>
+	<string name = "sesame_seeds">sezam</string>
+	<string name = "linseed">siemienie lniane</string>
+	<string name = "sunflower_seeds">słonecznik</string>
+		
+	<string name = "jam">dżem</string>	
+	<string name = "blueberries">jagody</string>	
+	<string name = "blackberries">jeżyny</string>
+		
+	<string name= "bread_crumbs">bułka tarta</string>
+	<string name = "buckwheat">kasza gryczana</string>	<!-- kasza gryczana -->
+	<string name = "semolina">kasza manna</string>	<!-- manna -->
+	<string name = "barley_groats">kasza jeczmienna</string> <!-- jeczmienna -->
+	<string name = "rice">ryż</string>
+	
+	<string name = "sugar">cukier, granulowany</string>
+	<string name = "sugar_icing">cukier puder</string>
+	<string name = "vanilla_sugar">cukier waniliowy</string>
+	<string name = "cinnamon">cynamon</string>	
+	<string name = "chocolate_powder">czekolada w proszku</string>	
+	<string name = "cacao">kakao</string>		
+	<string name = "coffee_ground">kawa, mielona</string>	
+	
+	<string name = "ketchup">ketchup</string>	
+	<string name = "tomato_pure">przecier pomidorowy</string>	
+	<string name = "mayonnaise">majonez</string>	
+	
+	<string name= "oatmeal">płatki owsiane</string>
+	<string name = "flour_wheat">mąka pszenna</string>
+	<string name = "flour_potato">mąka ziemniaczana</string>
+	<string name = "flour_corn">mąka kukurydziana</string>
+	<string name = "flour_wholemeal">mąka razowa</string>
+	<string name = "flour_soy">mąka sojowa</string>	
+	<string name = "honey">miód</string>
+	<string name = "milk">mleko</string>
+	<string name = "milk_granulated">mleko, granulowane</string>
+	<string name = "milk_powder">mleko w proszku</string>
+	<string name = "vinegar">ocet</string>
+	<string name = "alcohol">alkohol</string>	
+	<string name = "wine">wino</string>
+	<string name = "water">woda</string>
+	<string name = "cream_18">śmietana 18%</string>
+	
+	<string name = "margarine">margaryna</string>
+	<string name = "butter">masło</string>
+	<string name = "oil">olej</string>
+	<string name = "olive_oil">oliwa z oliwek</string>
+	<string name = "lard">smalec</string> <!-- smalec -->		
+	<string name = "raisins">rodzynki</string>
+	<string name = "cranberries">żurawiny</string>
+	
+<!-- 	<string name = "almonds_whole">almonds, whole</string> -->
+	<string name = "almonds_grated">migdały, mielone</string>
+	<string name = "almonds_flakes">migdały, płatki</string>
+	<!-- <string name = "hazelnuts_whole">hazelnuts, whole</string>	 -->
+	<string name = "hazelnuts_grated">o. laskowe, mielone</string>
+	<string name = "walnuts_grated">o. włoskie, mielone</string>		
+	<string name = "coconut_grated">wiórki kokosowe</string>		
+	
+	<string name= "pepper_ground">pieprz, mielony</string>
+	<string name= "paprika_ground">papryka, mielona</string>
+	<string name = "salt">sól</string>
+	
+	<string name = "ground_spices">przyp. do piernika</string> <!-- przyprawa do piernika -->
+	<string name = "baking_powder">proszek do pieczenia</string>	
+	<string name = "baking_soda">soda</string>	
+
+	<string name = "gelatine">żelatyna</string>
+	<string name = "cheese_grated">ser, tarkowany</string>
+	<string name = "cottage_cheese">twaróg</string>	
+	
+		<!-- Yeast types -->
+	
+	<string name = "yeast_fresh">ŚWIEŻE</string>
+	<string name = "yeast_dry">SUCHE</string>
+	<string name = "yeast_instant">INSTANT</string>
+	
+	<string name = "yeast_from">Z:</string>
+	<string name = "yeast_to">Na:</string>	
+	
+</resources>

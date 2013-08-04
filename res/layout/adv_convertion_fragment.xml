@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="@color/backgroun_nd">
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@color/backgroun_nd"
+    android:layout_marginTop="10dp">
+
+
+    <View
+        android:id="@+id/centerLine"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+         
+        android:id="@+id/tvProductType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/productType"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@id/centerLine"
+        android:gravity="center"
+        android:text="Product: "
+        android:textSize="23sp" 
+        android:textColor="#000"
+        android:background="#fff"
+         android:layout_marginLeft="8dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="5dp" />
+
+    <Spinner
+       
+        android:id="@+id/productType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/centerLine" />
+
+    <EditText
+        android:id="@+id/editAmount"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignBottom="@+id/inMeasurement"
+        android:layout_below="@+id/tvProductType"
+        android:layout_toLeftOf="@id/centerLine"
+        android:gravity="center"
+        android:hint="0"
+        android:inputType="numberDecimal"
+        android:maxLength="10"
+        android:text="1"
+        android:textSize="23sp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="1dp" 
+        />
+
+    <Spinner
+        android:id="@+id/inMeasurement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/productType"
+        android:layout_toRightOf="@id/centerLine" />
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignBottom="@+id/outMeasurement"
+        android:layout_below="@id/editAmount"
+        android:layout_toLeftOf="@id/centerLine"
+        android:background="@color/result"
+        android:gravity="center"
+        android:text="Result"
+        android:textSize="23sp"
+        android:textStyle="bold" 
+        android:layout_marginTop="2.5dp"
+        android:layout_marginBottom="6dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="3dp"  />
+
+    <Spinner
+        android:id="@+id/outMeasurement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/inMeasurement"
+        android:layout_toRightOf="@id/centerLine" />
+
+</RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroun_nd" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/backgroun_nd"
+        android:layout_marginTop="10dp" >
+
+        <View
+            android:id="@+id/centerLine"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/tvYeastFrom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/spYeastTypeIn"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/centerLine"
+            android:gravity="center"
+            android:text="@string/yeast_from"
+            android:textSize="23sp"
+            android:background="#fff"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="7dp" />
+
+        <Spinner
+            android:id="@+id/spYeastTypeIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/centerLine"
+             />
+
+        <EditText
+            android:id="@+id/etYeastAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/spYeastMeasurementIn"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/tvYeastFrom"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="3dp"
+            android:layout_toLeftOf="@+id/centerLine"
+            android:gravity="center"
+            android:hint="0"
+            android:inputType="numberDecimal"
+            android:maxLength="7"
+            android:textSize="23sp" />
+
+        <Spinner
+            android:id="@+id/spYeastMeasurementIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/spYeastTypeIn"
+            android:layout_toRightOf="@+id/centerLine" />
+
+        <TextView
+            android:id="@+id/tvYeastTo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/spYeastTypeOut"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/etYeastAmount"
+            android:layout_toLeftOf="@+id/centerLine"
+            android:gravity="center"
+            android:text="@string/yeast_to"
+            android:textSize="23sp"
+            android:background="#fff" 
+            
+            android:layout_marginTop="2dp"
+              android:layout_marginLeft="8dp"
+            android:layout_marginRight="5dp"           
+            android:layout_marginBottom="7dp"/>
+
+        <Spinner
+            android:id="@+id/spYeastTypeOut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/spYeastMeasurementIn"
+            android:layout_toRightOf="@+id/centerLine" />
+
+        <TextView
+            android:id="@+id/tvYeastResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/spYeastMeasurementOut"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/tvYeastTo"
+            android:layout_marginBottom="6dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="1.5dp"
+            android:layout_toLeftOf="@+id/centerLine"
+            android:background="@color/result"
+            android:gravity="center"
+            android:hint="0"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spYeastMeasurementOut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/spYeastTypeOut"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/centerLine" />
+    </RelativeLayout>
+
+</ScrollView>
