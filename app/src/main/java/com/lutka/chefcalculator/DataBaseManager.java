@@ -24,6 +24,14 @@ public class DatabaseManager extends MSQLiteOpenHelper
         this.context = context;
     }
 
+    /* metoda wywolana kiedy uzytkownik aktualizuje aplikacje,
+     w przypadku kiedy nowe produkty sa dodane do aplikacji nalezy dodac je tutaj jak i do productItems()*/
+    @Override
+    public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion)
+    {
+        super.onUpgrade(db, oldVersion, newVersion);
+    }
+
     @Override
     public void onCreate(SQLiteDatabase db)
     {
