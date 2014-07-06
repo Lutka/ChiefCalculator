@@ -3,8 +3,12 @@ package com.lutka.chefcalculator.models;
 public class Yeast extends Product
 {
 	float yeastPower;
-	
-	Yeast(String name, float density, float yeastPower)
+
+    public Yeast()
+    {
+    }
+
+    public Yeast(String name, float density, float yeastPower)
 	{
 		super(name, density);
 		this.yeastPower = yeastPower;

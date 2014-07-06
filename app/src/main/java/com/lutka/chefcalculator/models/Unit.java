@@ -10,9 +10,12 @@ public class Unit
 	String name;	
 	float weigth;
 	public UnitType unitType;
-	
-	
-	public Unit (String name, float weigth, UnitType unitType)
+
+    public Unit()
+    {
+    }
+
+    public Unit (String name, float weigth, UnitType unitType)
 	{
 		//this.fullname = fullname;
 		this.name = name;
