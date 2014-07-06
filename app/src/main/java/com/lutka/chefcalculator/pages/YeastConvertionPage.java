@@ -21,7 +21,6 @@ import android.widget.TextView;
 
 import com.lutka.chefcalculator.R;
 import com.lutka.chefcalculator.models.Unit;
-import com.lutka.chefcalculator.models.Unit.UnitType;
 import com.lutka.chefcalculator.models.Yeast;
 
 public class YeastConvertionPage extends Fragment implements OnItemSelectedListener, TextWatcher
@@ -90,10 +89,10 @@ public class YeastConvertionPage extends Fragment implements OnItemSelectedListe
 	public ArrayList<Unit>listOfUnits()
 	{
 		ArrayList<Unit> listOfUnits = new ArrayList<Unit>();
-		listOfUnits.add(new Unit(getActivity().getString(R.string.oz_uk), 28.41f, UnitType.Volume));
-		listOfUnits.add(new Unit(getActivity().getString(R.string.oz_us), 29.57f, UnitType.Volume));
-		listOfUnits.add(new Unit(getActivity().getString(R.string.gram), 1, UnitType.Weight));
-		listOfUnits.add(new Unit(getActivity().getString(R.string.tea_spoon), 4, UnitType.Volume));
+		listOfUnits.add(new Unit(getActivity().getString(R.string.oz_uk), 28.41f, Unit.UNIT_VOLUME));
+		listOfUnits.add(new Unit(getActivity().getString(R.string.oz_us), 29.57f, Unit.UNIT_VOLUME));
+		listOfUnits.add(new Unit(getActivity().getString(R.string.gram), 1, Unit.UNIT_WEIGHT));
+		listOfUnits.add(new Unit(getActivity().getString(R.string.tea_spoon), 4, Unit.UNIT_VOLUME));
 		
 		return listOfUnits;
 	}

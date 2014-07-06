@@ -5,8 +5,6 @@ import java.util.ArrayList;
 import android.content.Context;
 
 import com.lutka.chefcalculator.models.Unit;
-import com.lutka.chefcalculator.models.Unit.UnitType;
-
 
 public class UnitsList
 {	
@@ -15,10 +13,10 @@ public class UnitsList
 	public UnitsList(Context context)
 	{
 		unitList = new ArrayList<Unit>();
-		UnitType unitType;
+		int unitType;
 			
 		//to add volume measurements
-		unitType = UnitType.Volume;
+		unitType = Unit.UNIT_VOLUME;
 		
 		unitList.add(new Unit(context.getString(R.string.mililitr),  1, unitType));
 		unitList.add(new Unit(context.getString(R.string.tea_spoon),  5, unitType ));
@@ -36,7 +34,7 @@ public class UnitsList
 		
 		
 		// to add weight measurements
-		unitType = UnitType.Weight;
+		unitType = Unit.UNIT_WEIGHT;
 		
 		unitList.add(new Unit(context.getString(R.string.miligram),  0.1f, unitType));
 		unitList.add(new Unit(context.getString(R.string.gram),  1, unitType));
@@ -46,7 +44,7 @@ public class UnitsList
 		unitList.add(new Unit(context.getString(R.string.stone),  6350.29f, unitType ));
 	}
 	
-	public ArrayList<Unit> getUnits(UnitType unitType)
+	public ArrayList<Unit> getUnits(int unitType)
 	{
 		ArrayList<Unit> listOfRequiredUnit = new ArrayList<Unit>();
 		

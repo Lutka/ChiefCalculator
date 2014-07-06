@@ -22,7 +22,6 @@ import android.widget.TextView;
 import com.lutka.chefcalculator.R;
 import com.lutka.chefcalculator.UnitsList;
 import com.lutka.chefcalculator.models.Unit;
-import com.lutka.chefcalculator.models.Unit.UnitType;
 
 public class ConvertionPage extends Fragment implements OnItemSelectedListener, TextWatcher
 {
@@ -122,11 +121,11 @@ public class ConvertionPage extends Fragment implements OnItemSelectedListener, 
 			
 		if(pageNumber == 1)
 		{
-			return unitList.getUnits(UnitType.Volume);			
+			return unitList.getUnits(Unit.UNIT_VOLUME);
 		}
 		else
 		{
-			return unitList.getUnits(UnitType.Weight);
+			return unitList.getUnits(Unit.UNIT_WEIGHT);
 		}
 				
 	}
