@@ -22,7 +22,6 @@ import android.widget.TextView;
 
 import com.lutka.chefcalculator.DatabaseManager;
 import com.lutka.chefcalculator.R;
-import com.lutka.chefcalculator.UnitsList;
 import com.lutka.chefcalculator.models.Product;
 import com.lutka.chefcalculator.models.Unit;
 
@@ -32,7 +31,7 @@ public class AdvancedConvertionPage extends Fragment implements OnItemSelectedLi
 	//public static final String  sharedPreferencesTag = "chefcalculator";
 	
 	List<Product> listOfProduct;
-	ArrayList<Unit> listOfUnits;
+	List<Unit> listOfUnits;
 	
 	Spinner spinnerIn, spinnerOut, spinnerProduct;
 	EditText valueIn;
@@ -59,7 +58,7 @@ public class AdvancedConvertionPage extends Fragment implements OnItemSelectedLi
 		ArrayAdapter<Product> adapter = new ArrayAdapter<Product>(getActivity(), android.R.layout.simple_list_item_1, listOfProduct); 
 		spinnerProduct.setAdapter(adapter);
 		
-		listOfUnits = new UnitsList(getActivity()).getUnits();
+		listOfUnits = dbManager.selectAll(Unit.class);
 		
 		ArrayAdapter<Unit> arrayAdapter = new ArrayAdapter<Unit>(getActivity(), android.R.layout.simple_list_item_1, listOfUnits); 
 		//simple_list_item_1, 

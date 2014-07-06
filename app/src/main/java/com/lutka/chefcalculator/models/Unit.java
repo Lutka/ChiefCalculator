@@ -1,11 +1,14 @@
 package com.lutka.chefcalculator.models;
 
+import com.michaldabski.msqlite.Annotations;
+
 public class Unit
 {
     public static final int
         UNIT_WEIGHT = 0,
         UNIT_VOLUME = 1;
 
+    @Annotations.PrimaryKey
 	String name;	
 	float weigth;
 	public int unitType;

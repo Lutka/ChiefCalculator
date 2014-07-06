@@ -11,6 +11,7 @@ import com.michaldabski.msqlite.MSQLiteOpenHelper;
 import java.net.MulticastSocket;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 
 /**
  * Created by Lutka on 06/07/2014.
@@ -38,6 +39,8 @@ public class DatabaseManager extends MSQLiteOpenHelper
         super.onCreate(db);
         ArrayList<Product> productList =  productItems(context);
         insert(db,Product.class, productList);
+        List<Unit> unitList = unitsList(context);
+        insert(db, Unit.class, unitList);
     }
 
     private static ArrayList<Product> productItems(Context context)
@@ -111,6 +114,42 @@ public class DatabaseManager extends MSQLiteOpenHelper
 
         return sortProductList(productList);
     }
+
+    public List<Unit> unitsList(Context context)
+    {
+        List<Unit> unitList = new ArrayList<Unit>();
+        int unitType;
+
+        //to add volume measurements
+        unitType = Unit.UNIT_VOLUME;
+
+        unitList.add(new Unit(context.getString(R.string.mililitr),  1, unitType));
+        unitList.add(new Unit(context.getString(R.string.tea_spoon),  5, unitType ));
+        unitList.add(new Unit(context.getString(R.string.table_spoon),  15, unitType ));
+        unitList.add(new Unit(context.getString(R.string.oz_uk), 28.41f, unitType));
+        unitList.add(new Unit(context.getString(R.string.oz_us), 29.57f, unitType));
+        unitList.add(new Unit(context.getString(R.string.glass),  250, unitType ));
+        unitList.add(new Unit(context.getString(R.string.litr),  1000, unitType));
+        unitList.add(new Unit(context.getString(R.string.cup_us), 240, unitType));
+        unitList.add(new Unit(context.getString(R.string.cup_uk), 285, unitType));
+        unitList.add(new Unit(context.getString(R.string.pint_us), 473.17f, unitType));
+        unitList.add(new Unit(context.getString(R.string.pint_uk), 586.26f, unitType));
+        unitList.add(new Unit(context.getString(R.string.quart_us),  946, unitType));
+        unitList.add(new Unit(context.getString(R.string.quart_uk),  1137, unitType));
+
+        // to add weight measurements
+        unitType = Unit.UNIT_WEIGHT;
+
+        unitList.add(new Unit(context.getString(R.string.miligram),  0.1f, unitType));
+        unitList.add(new Unit(context.getString(R.string.gram),  1, unitType));
+        unitList.add(new Unit(context.getString(R.string.dekagram),  10, unitType ));
+        unitList.add(new Unit(context.getString(R.string.pound),  453.59f, unitType ));
+        unitList.add(new Unit(context.getString(R.string.kilogram),  1000, unitType ));
+        unitList.add(new Unit(context.getString(R.string.stone),  6350.29f, unitType ));
+
+        return unitList;
+    }
+
 
     //sort the list alphabetically
     private static ArrayList<Product> sortProductList(ArrayList<Product> sortedListOfProducts)

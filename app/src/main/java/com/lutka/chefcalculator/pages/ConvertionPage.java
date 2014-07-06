@@ -20,7 +20,6 @@ import android.widget.Spinner;
 import android.widget.TextView;
 
 import com.lutka.chefcalculator.R;
-import com.lutka.chefcalculator.UnitsList;
 import com.lutka.chefcalculator.models.Unit;
 
 public class ConvertionPage extends Fragment implements OnItemSelectedListener, TextWatcher
@@ -117,17 +116,16 @@ public class ConvertionPage extends Fragment implements OnItemSelectedListener, 
 	
 	public ArrayList<Unit> volumeItems(int pageNumber)
 	{
-		UnitsList unitList = new UnitsList(getActivity());
 			
 		if(pageNumber == 1)
 		{
-			return unitList.getUnits(Unit.UNIT_VOLUME);
+
 		}
 		else
 		{
-			return unitList.getUnits(Unit.UNIT_WEIGHT);
+
 		}
-				
+				return null;
 	}
 	
 	public void calculateResult()
