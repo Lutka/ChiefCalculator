@@ -112,7 +112,7 @@ public class DatabaseManager extends MSQLiteOpenHelper
         productList.add(new Product (context.getString(R.string.cheese_grated), 0.52f));
         productList.add(new Product (context.getString(R.string.cottage_cheese), 1.39f));
 
-        return sortProductList(productList);
+        return productList;
     }
 
     public List<Unit> unitsList(Context context)
@@ -150,11 +150,8 @@ public class DatabaseManager extends MSQLiteOpenHelper
         return unitList;
     }
 
-
-    //sort the list alphabetically
-    private static ArrayList<Product> sortProductList(ArrayList<Product> sortedListOfProducts)
-    {
-        Collections.sort(sortedListOfProducts);
-        return sortedListOfProducts;
+    public List <Product> getSortedProducts() {
+       return select(Product.class, null, null, Product.FIELD_NAME, null);
     }
+
 }

@@ -51,9 +51,9 @@ public class AdvancedConvertionPage extends Fragment implements OnItemSelectedLi
 		spinnerProduct = (Spinner) layout.findViewById(R.id.productType);
 
         DatabaseManager dbManager = new DatabaseManager(getActivity());
+        
+		listOfProduct = dbManager.getSortedProducts();
 
-		listOfProduct = dbManager.selectAll(Product.class);
-		
 		//adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 		ArrayAdapter<Product> adapter = new ArrayAdapter<Product>(getActivity(), android.R.layout.simple_list_item_1, listOfProduct); 
 		spinnerProduct.setAdapter(adapter);

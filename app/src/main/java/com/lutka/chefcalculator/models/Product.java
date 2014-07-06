@@ -4,7 +4,9 @@ import com.michaldabski.msqlite.Annotations;
 
 public class Product implements Comparable<Product>
 {
+    public static final String FIELD_NAME = "name";
     @Annotations.PrimaryKey
+    @Annotations.ColumnName (FIELD_NAME)
 	String name;
 	float density;  // gram/cm^3 or kg/m^3
 
