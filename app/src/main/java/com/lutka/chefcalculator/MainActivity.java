@@ -66,54 +66,7 @@ public class MainActivity extends FragmentActivity
 					}
 				});
 
-		// --->   For each of the sections in the app, add a tab to the action bar.
-	/*	for (int i = 0; i < mSectionsPagerAdapter.getCount(); i++)
-		{
-			// Create a tab with text corresponding to the page title defined by
-			// the adapter. Also specify this Activity object, which implements
-			// the TabListener interface, as the callback (listener) for when
-			// this tab is selected.
-			actionBar.addTab(actionBar.newTab()
-					.setText(mSectionsPagerAdapter.getPageTitle(i))
-					.setTabListener(this));
-			
-			TabSpec tab = tabHost.newTabSpec(mSectionsPagerAdapter.getPageTitle(i).toString());
-			tab.setIndicator(mSectionsPagerAdapter.getPageTitle(i));
-			tab.setContent(android.R.id.tabcontent);
-			tabHost.addTab(tab);
-		}*/
 	}
-
-	
-	//to not have a menu in the right top corner 
-/*	@Override
-	public boolean onCreateOptionsMenu(Menu menu)
-	{
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.activity_main, menu);
-		return true;
-	}*/
-/*
-	@Override
-	public void onTabSelected(ActionBar.Tab tab,
-			FragmentTransaction fragmentTransaction)
-	{
-		// When the given tab is selected, switch to the corresponding page in
-		// the ViewPager.
-		mViewPager.setCurrentItem(tab.getPosition());
-	}
-
-	@Override
-	public void onTabUnselected(ActionBar.Tab tab,
-			FragmentTransaction fragmentTransaction)
-	{
-	}
-
-	@Override
-	public void onTabReselected(ActionBar.Tab tab,
-			FragmentTransaction fragmentTransaction)
-	{
-	}*/
 
 	/**
 	 * A {@link FragmentPagerAdapter} that returns a fragment corresponding to
