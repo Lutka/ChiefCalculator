@@ -21,7 +21,7 @@ public class DatabaseManager extends MSQLiteOpenHelper
     Context context;
     public DatabaseManager(Context context)
     {
-        super(context, "kitchen.db", null, 1, new Class[]{Product.class, Yeast.class, Unit.class});
+        super(context, "kitchen.db", null, 1, new Class[]{Product.class, Unit.class});
         this.context = context;
     }
 
