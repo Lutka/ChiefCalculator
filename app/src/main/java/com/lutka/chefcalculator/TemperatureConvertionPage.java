@@ -35,7 +35,7 @@ public class TemperatureConvertionPage extends Fragment implements OnItemSelecte
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState) 
 	{
 		
-		View layout = inflater.inflate(R.layout.temperature_fragment, null);		
+		View layout = inflater.inflate(R.layout.temperature_fragment, container, false);
 		
 		fahrenheitValue = (TextView) layout.findViewById(R.id.fahrenheitValue);
 		celsiusValue = (TextView) layout.findViewById(R.id.celsiusValue);

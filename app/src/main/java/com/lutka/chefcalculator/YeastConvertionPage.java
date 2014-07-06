@@ -34,7 +34,7 @@ public class YeastConvertionPage extends Fragment implements OnItemSelectedListe
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) 
 	{
-		View layout = inflater.inflate(R.layout.yeast_fragment, null);
+		View layout = inflater.inflate(R.layout.yeast_fragment, container, false);
 		
 		result = (TextView) layout.findViewById(R.id.tvYeastResult);
 		amount = (EditText) layout.findViewById(R.id.etYeastAmount);

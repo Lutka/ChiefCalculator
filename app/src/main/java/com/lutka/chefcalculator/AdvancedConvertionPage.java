@@ -35,7 +35,7 @@ public class AdvancedConvertionPage extends Fragment implements OnItemSelectedLi
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState)
 	{
-		View layout = inflater.inflate(R.layout.adv_convertion_fragment, null);
+		View layout = inflater.inflate(R.layout.adv_convertion_fragment, container, false);
 		
 		valueIn = (EditText) layout.findViewById(R.id.editAmount);
 		valueOut = (TextView) layout.findViewById(R.id.tvResult);
