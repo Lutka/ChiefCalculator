@@ -4,10 +4,10 @@
      <string name="app_name">Kalkulator Kuchenny</string>
     <string name="title_section3">Drożdże</string>
     <string name="title_section2">Temperatury</string>
-    <string name="title_section1">Produkty</string>
+    <string name="title_section1">Produkt</string>
     <string name="menu_settings">Ustawienia</string>
     
-     <string name = "product">Produkt</string>
+     <string name = "product">Produkt:</string>
     <string name = "from">Ilość</string>
     <string name = "to">Przelicz na</string>
     
@@ -41,7 +41,7 @@
 	
 	<string name = "pumpkin_seed">dynia, pestki</string>
 	<string name = "sesame_seeds">sezam</string>
-	<string name = "linseed">siemienie lniane</string>
+	<string name = "linseed">siemię lniane</string>
 	<string name = "sunflower_seeds">słonecznik</string>
 		
 	<string name = "jam">dżem</string>	

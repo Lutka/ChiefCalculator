@@ -6,132 +6,120 @@
     <string name="title_section2">Temperatures</string>
     <string name="title_section1">Products</string>
     <string name="menu_settings">Settings</string>
-    
-    <string name = "product">Product</string>
-    <string name = "from">From</string>
-    <string name = "to">To</string>
-    
-    
+    <string name="product">Product:</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
     <string name="mililitr">ml</string>
     <string name="tea_spoon">tsp</string>
     <string name="table_spoon">tbsp</string>
-     <string name="oz_uk">oz (UK)</string>
+    <string name="oz_uk">oz (UK)</string>
     <string name="oz_us">oz (US)</string>
     <string name="cup_us">cup (US)</string>
-    <string name="cup_uk">cup (UK)</string>    
-    <string name="glass">glass</string>    
-    <string name="litr">l</string>   
+    <string name="cup_uk">cup (UK)</string>
+    <string name="glass">glass</string>
+    <string name="litr">l</string>
     <string name="pint_uk">pint (UK)</string>
-    <string name="pint_us">pint (US)</string>    
+    <string name="pint_us">pint (US)</string>
     <string name="quart_us">quart (US)</string>
     <string name="quart_uk">quart (UK)</string>
-    
     <string name="miligram">mg</string>
     <string name="gram">g</string>
     <string name="dekagram">dag</string>
     <string name="pound">lb</string>
-	<string name="kilogram">kg</string>
-	<string name="stone">stone</string>
-	
-	<!--	done above  -->
-	
-	
-	<!-- <string name = "broad_bean">broad bean</string> bob -->
-	
-	<string name = "bean">bean</string>
-	<string name = "pea">pea</string>		
-	<string name = "lentil">lentil</string> <!-- soczewica -->	
-	<string name = "chickpeas">chickpeas</string>
-	<string name = "poppy_seed">poppy seed</string>
-	
-	<string name = "pumpkin_seed">pumpkin seeds</string>
-	<string name = "sesame_seeds">sesame seed</string>
-	<string name = "linseed">linseed</string>
-	<string name = "sunflower_seeds">sunflower seeds</string>
-		
-	<string name = "jam">jam</string>	
-	<string name = "blueberries">blueberries</string>	
-	<string name = "blackberries">blackberries</string>
-		
-	<string name= "bread_crumbs">bread crumbs</string>
-	<string name = "buckwheat">buckwheat</string>	<!-- kasza gryczana -->
-	<string name = "semolina">semolina</string>	<!-- manna -->
-	<string name = "barley_groats">barley groats</string> <!-- jeczmienna -->
-	<string name = "rice">rice</string>
-	
-	<string name = "sugar">sugar, granulated</string>
-	<string name = "sugar_icing">sugar, icing</string>
-	<string name = "vanilla_sugar">vanilla sugar</string>
-	<string name = "cinnamon">cinnamon</string>	
-	<string name = "chocolate_powder">chocolate powder</string>	
-	<string name = "cacao">cacao</string>		
-	<string name = "coffee_ground">coffee, ground</string>	
-	
-	<string name = "ketchup">ketchup</string>	
-	<string name = "tomato_pure">tomato, pure</string>	
-	<string name = "mayonnaise">mayonnaise</string>	
-	
-	<string name= "oatmeal">oatmeal</string>
-	<string name = "flour_wheat">flour, wheat</string>
-	<string name = "flour_potato">flour, potato</string>
-	<string name = "flour_corn">flour, corn</string>
-	<string name = "flour_wholemeal">flour, wholemeal</string>
-	<string name = "flour_soy">flour, soy</string>	
-	<string name = "honey">honey</string>
-	<string name = "milk">milk</string>
-	<string name = "milk_granulated">milk, granulated</string>
-	<string name = "milk_powder">milk, powder</string>
-	<string name = "vinegar">vinegar</string>
-	<string name = "alcohol">alcohol</string>	
-	<string name = "wine">wine</string>
-	<string name = "water">water</string>
-	<string name = "cream_18">cream 18%</string>
-	
-	<string name = "margarine">margarine</string>
-	<string name = "butter">butter</string>
-	<string name = "oil">oil</string>
-	<string name = "olive_oil">olive oil</string>
-	<string name = "lard">lard</string> <!-- smalec -->		
-	<string name = "raisins">raisins</string>
-	<string name = "cranberries">cranberries</string>
-	
-<!-- 	<string name = "almonds_whole">almonds, whole</string> -->
-	<string name = "almonds_grated">almonds, grated</string>
-	<string name = "almonds_flakes">almonds, flakes</string>
-	<!-- <string name = "hazelnuts_whole">hazelnuts, whole</string>	 -->
-	<string name = "hazelnuts_grated">hazelnuts, grated</string>
-	<string name = "walnuts_grated">walnuts, grated</string>		
-	<string name = "coconut_grated">coconut, grated</string>		
-	
-	<string name= "pepper_ground">pepper, ground</string>
-	<string name= "paprika_ground">paprika, ground</string>
-	<string name = "salt">salt</string>
-	
-	<string name = "ground_spices">spices, ground</string> <!-- przyprawa do piernika -->
-	<string name = "baking_powder">baking powder</string>	
-	<string name = "baking_soda">baking soda</string>	
+    <string name="kilogram">kg</string>
+    <string name="stone">stone</string>
 
-	<string name = "gelatine">gelatine</string>
-	<string name = "cheese_grated">cheese, grated</string>
-	<string name = "cottage_cheese">cottage cheese</string>
-		
-	
-	<!-- temperature convertion -->
-	
-	<string name = "fahrenheit">fahrenheit:</string>
-	<string name = "celsius">celsius:</string>
-	<string name = "gas_mark">gas mark:</string>
-	<string name = "cooking_instruction">cooking instruction:</string>
-	
-	
-	<!-- Yeast types -->
-	
-	<string name = "yeast_fresh">FRESH</string>
-	<string name = "yeast_dry">DRY</string>
-	<string name = "yeast_instant">INSTANT</string>	
-	
-	<string name = "yeast_from">From:</string>
-	<string name = "yeast_to">To:</string>	
-	
-	
+    <!-- <string name = "broad_bean">broad bean</string> bob -->
+
+    <string name="bean">bean</string>
+    <string name="pea">pea</string>
+    <string name="lentil">lentil</string>
+ <!-- soczewica -->
+    <string name="chickpeas">chickpeas</string>
+    <string name="poppy_seed">poppy seed</string>
+    <string name="pumpkin_seed">pumpkin seeds</string>
+    <string name="sesame_seeds">sesame seed</string>
+    <string name="linseed">linseed</string>
+    <string name="sunflower_seeds">sunflower seeds</string>
+    <string name="jam">jam</string>
+    <string name="blueberries">blueberries</string>
+    <string name="blackberries">blackberries</string>
+    <string name="bread_crumbs">bread crumbs</string>
+    <string name="buckwheat">buckwheat</string>
+ <!-- kasza gryczana -->
+    <string name="semolina">semolina</string>
+ <!-- manna -->
+    <string name="barley_groats">barley groats</string>
+ <!-- jeczmienna -->
+    <string name="rice">rice</string>
+    <string name="sugar">sugar, granulated</string>
+    <string name="sugar_icing">sugar, icing</string>
+    <string name="vanilla_sugar">vanilla sugar</string>
+    <string name="cinnamon">cinnamon</string>
+    <string name="chocolate_powder">chocolate powder</string>
+    <string name="cacao">cacao</string>
+    <string name="coffee_ground">coffee, ground</string>
+    <string name="ketchup">ketchup</string>
+    <string name="tomato_pure">tomato, pure</string>
+    <string name="mayonnaise">mayonnaise</string>
+    <string name="oatmeal">oatmeal</string>
+    <string name="flour_wheat">flour, wheat</string>
+    <string name="flour_potato">flour, potato</string>
+    <string name="flour_corn">flour, corn</string>
+    <string name="flour_wholemeal">flour, wholemeal</string>
+    <string name="flour_soy">flour, soy</string>
+    <string name="honey">honey</string>
+    <string name="milk">milk</string>
+    <string name="milk_granulated">milk, granulated</string>
+    <string name="milk_powder">milk, powder</string>
+    <string name="vinegar">vinegar</string>
+    <string name="alcohol">alcohol</string>
+    <string name="wine">wine</string>
+    <string name="water">water</string>
+    <string name="cream_18">cream 18%</string>
+    <string name="margarine">margarine</string>
+    <string name="butter">butter</string>
+    <string name="oil">oil</string>
+    <string name="olive_oil">olive oil</string>
+    <string name="lard">lard</string>
+ <!-- smalec -->
+    <string name="raisins">raisins</string>
+    <string name="cranberries">cranberries</string>
+
+    <!-- <string name = "almonds_whole">almonds, whole</string> -->
+    <string name="almonds_grated">almonds, grated</string>
+    <string name="almonds_flakes">almonds, flakes</string>
+    <!-- <string name = "hazelnuts_whole">hazelnuts, whole</string> -->
+    <string name="hazelnuts_grated">hazelnuts, grated</string>
+    <string name="walnuts_grated">walnuts, grated</string>
+    <string name="coconut_grated">coconut, grated</string>
+    <string name="pepper_ground">pepper, ground</string>
+    <string name="paprika_ground">paprika, ground</string>
+    <string name="salt">salt</string>
+    <string name="ground_spices">spices, ground</string>
+ <!-- przyprawa do piernika -->
+    <string name="baking_powder">baking powder</string>
+    <string name="baking_soda">baking soda</string>
+    <string name="gelatine">gelatine</string>
+    <string name="cheese_grated">cheese, grated</string>
+    <string name="cottage_cheese">cottage cheese</string>
+
+    <!-- temperature convertion -->
+
+    <string name="fahrenheit">fahrenheit:</string>
+    <string name="celsius">celsius:</string>
+    <string name="gas_mark">gas mark:</string>
+    <string name="cooking_instruction">cooking instruction:</string>
+
+    <!-- Yeast types -->
+
+    <string name="yeast_fresh">FRESH</string>
+    <string name="yeast_dry">DRY</string>
+    <string name="yeast_instant">INSTANT</string>
+    <string name="yeast_from">From:</string>
+    <string name="yeast_to">To:</string>
+    <string name="title_activity_note_list">NoteListActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
 </resources>

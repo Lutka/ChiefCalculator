@@ -165,9 +165,7 @@ public class AdvancedConvertionPage extends Fragment implements OnItemSelectedLi
 		productList.add(new Product (getActivity().getString(R.string.baking_soda), 0.87f));
 		productList.add(new Product (getActivity().getString(R.string.gelatine), 0.71f));
 		productList.add(new Product (getActivity().getString(R.string.cheese_grated), 0.52f));
-		productList.add(new Product (getActivity().getString(R.string.cottage_cheese), 1.39f));
-		
-			
+		productList.add(new Product (getActivity().getString(R.string.cottage_cheese), 1.39f));			
 		
 		return sortProductList(productList);
 	}

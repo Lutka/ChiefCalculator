@@ -27,7 +27,7 @@
         android:layout_alignParentTop="true"
         android:layout_toLeftOf="@id/centerLine"
         android:gravity="center"
-        android:text="Product: "
+        android:text="@string/product"
         android:textSize="23sp" 
         android:textColor="#000"
         android:background="#fff"

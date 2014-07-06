@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Chef Calculator</string>
+    <string name="title_section3">Hefen</string>
+    <string name="title_section2">Temperaturen</string>
+    <string name="title_section1">Produkte</string>
+    <string name="menu_settings">Einstellungen</string> 
+    
+    <string name = "product">Produkte:</string>
+    <string name = "from">Aus</string>
+    <string name = "to">To</string>
+    
+    
+    <string name="mililitr">Milliter(ml)</string>
+    <string name="tea_spoon">Teelöffel</string> <!-- tsp Teelóffel, TL or Teel? -->
+    <string name="table_spoon">Esslöffel</string>
+     <string name="oz_uk">Unze (UK)</string>
+    <string name="oz_us">Unze (US)</string>
+    <string name="cup_us">Cup (US)</string>
+    <string name="cup_uk">Cup (UK)</string>    
+    <string name="glass">Glas</string>    
+    <string name="litr">Liter</string>   
+    <string name="pint_uk">Pint (UK)</string>
+    <string name="pint_us">Pint (US)</string>    
+    <string name="quart_us">Quart (US)</string>
+    <string name="quart_uk">Quart (UK)</string>
+    
+    <string name="miligram">mg</string>
+    <string name="gram">g</string>
+    <string name="dekagram">dag</string>
+    <string name="pound">Pfund (lb)</string>
+	<string name="kilogram">kg</string>
+	<string name="stone">Stone</string>
+
+	<!-- <string name = "broad_bean">broad bean</string> bob -->
+	
+	<string name = "bean">Bohne</string>
+	<string name = "pea">Erbsen</string>		
+	<string name = "lentil">Linsen</string> <!-- soczewica -->	
+	<string name = "chickpeas">Kichererbsen</string>
+	<string name = "poppy_seed">Mohn</string>
+	
+	<string name = "pumpkin_seed">Kürbiskerne</string>
+	<string name = "sesame_seeds">Sesam</string>
+	<string name = "linseed">Leinsamen</string>
+	<string name = "sunflower_seeds">Sonnenblumenkerne</string>
+		
+	<string name = "jam">Marmelade</string>	
+	<string name = "blueberries">Blaubeeren</string>	
+	<string name = "blackberries">Brombeeren</string>
+		
+	<string name= "bread_crumbs">Brotkrumen</string>
+	<string name = "buckwheat">Buchweizen</string>	<!-- kasza gryczana -->
+	<string name = "semolina">Grieß</string>	<!-- manna -->
+	<string name = "barley_groats">Gerstengrütze</string> <!-- jeczmienna -->
+	<string name = "rice">Reis</string>
+	
+	<string name = "sugar">Zucker, granuliert</string>
+	<string name = "sugar_icing">Zuckerguss</string>
+	<string name = "vanilla_sugar">Vanillezucker</string>
+	<string name = "cinnamon">Zimt</string>	
+	<string name = "chocolate_powder">Schokoladenpulver</string>	
+	<string name = "cacao">Kakao</string>		
+	<string name = "coffee_ground">Kaffee, gemahlen</string>	
+	
+	<string name = "ketchup">Ketchup</string>	
+	<string name = "tomato_pure">Tomaten, reine</string>	
+	<string name = "mayonnaise">Mayonnaise</string>	
+	
+	<string name= "oatmeal">Haferflocken</string>
+	<string name = "flour_wheat">M, Weizenmehl</string>
+	<string name = "flour_potato">M, Kartoffelmehl</string>
+	<string name = "flour_corn">M, Maismehl</string>
+	<string name = "flour_wholemeal">M, Vollkornmehl</string>
+	<string name = "flour_soy">M, Sojamehl</string>	
+	<string name = "honey">Honig</string>
+	<string name = "milk">Milch</string>
+	<string name = "milk_granulated">Milchgranulat</string>
+	<string name = "milk_powder">Milchpulver</string>
+	<string name = "vinegar">Essig</string>
+	<string name = "alcohol">Alkohol</string>	
+	<string name = "wine">Wein</string>
+	<string name = "water">Wasser</string>
+	<string name = "cream_18">Sahne 18%</string>
+	
+	<string name = "margarine">Margarine</string>
+	<string name = "butter">Butter</string>
+	<string name = "oil">Öl</string>
+	<string name = "olive_oil">Olivenöl</string>
+	<string name = "lard">Schmalz</string> <!-- smalec -->		
+	<string name = "raisins">Rosinen</string>
+	<string name = "cranberries">Preiselbeeren</string>
+	
+<!-- 	<string name = "almonds_whole">Mandeln, ganze</string> -->
+	<string name = "almonds_grated">Mandeln, gerieben</string>
+	<string name = "almonds_flakes">Mandeln, Flocken</string>
+	<!-- <string name = "hazelnuts_whole"> Haselnüsse, ganze</string>	 -->
+	<string name = "hazelnuts_grated">Haselnüsse, gerieben</string>
+	<string name = "walnuts_grated">Walnüsse, gerieben</string>		
+	<string name = "coconut_grated">Kokosnuss, gerieben</string>		
+	
+	<string name= "pepper_ground">Pfeffer, gemahlen</string>
+	<string name= "paprika_ground">Paprika, gemahlen</string>
+	<string name = "salt">Salz</string>
+	
+	<string name = "ground_spices">Gewürze, gemahlen</string> <!-- przyprawa do piernika -->
+	<string name = "baking_powder">Backpulver</string>	
+	<string name = "baking_soda">Natron</string>	
+
+	<string name = "gelatine">Gelatine</string>
+	<string name = "cheese_grated">Käse, gerieben</string>
+	<string name = "cottage_cheese">Hüttenkäse</string>
+		
+	
+	<!-- temperature convertion -->
+	
+	<string name = "fahrenheit">Fahrenheit:</string>
+	<string name = "celsius">Celsius:</string>
+	<string name = "gas_mark">Gas Stufe:</string>
+	<string name = "cooking_instruction">Kochanweisung:</string>
+	
+	
+	<!-- Yeast types -->
+	
+	<string name = "yeast_fresh">FRISCH HEFE</string>
+	<string name = "yeast_dry">TROCKENHEFE</string>
+	<string name = "yeast_instant">INSTANT HEFE</string>	
+	
+	<string name = "yeast_from">Von:</string>
+	<string name = "yeast_to">Bis:</string>	<!-- To ? -->
+	
+	
+</resources>
