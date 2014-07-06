@@ -7,6 +7,10 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 
+import com.lutka.chefcalculator.pages.AdvancedConvertionPage;
+import com.lutka.chefcalculator.pages.TemperatureConvertionPage;
+import com.lutka.chefcalculator.pages.YeastConvertionPage;
+
 public class MainActivity extends FragmentActivity 
 {
 	//display tabs on the top similar to action bar

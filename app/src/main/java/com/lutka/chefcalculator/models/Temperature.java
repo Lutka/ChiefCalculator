@@ -1,4 +1,4 @@
-package com.lutka.chefcalculator;
+package com.lutka.chefcalculator.models;
 
 public class Temperature 
 {

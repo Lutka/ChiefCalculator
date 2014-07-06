@@ -1,4 +1,4 @@
-package com.lutka.chefcalculator;
+package com.lutka.chefcalculator.models;
 
 public class Unit
 {
@@ -9,7 +9,7 @@ public class Unit
 	//String fullname;
 	String name;	
 	float weigth;
-	UnitType unitType;
+	public UnitType unitType;
 	
 	
 	public Unit (String name, float weigth, UnitType unitType)

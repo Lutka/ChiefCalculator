@@ -1,11 +1,11 @@
-package com.lutka.chefcalculator;
+package com.lutka.chefcalculator.models;
 
 public class Product implements Comparable<Product>
 {
 	String name;
 	float density;  // gram/cm^3 or kg/m^3
 	
-	Product(String name, float density)
+	public Product(String name, float density)
 	{
 		this.name = name;
 		this.density = density;

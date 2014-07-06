@@ -4,7 +4,8 @@ import java.util.ArrayList;
 
 import android.content.Context;
 
-import com.lutka.chefcalculator.Unit.UnitType;
+import com.lutka.chefcalculator.models.Unit;
+import com.lutka.chefcalculator.models.Unit.UnitType;
 
 
 public class UnitsList

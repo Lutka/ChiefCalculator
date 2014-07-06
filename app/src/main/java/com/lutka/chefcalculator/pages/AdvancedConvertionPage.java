@@ -1,4 +1,4 @@
-package com.lutka.chefcalculator;
+package com.lutka.chefcalculator.pages;
 import java.util.ArrayList;
 import java.util.Collections;
 
@@ -19,12 +19,17 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
 
+import com.lutka.chefcalculator.R;
+import com.lutka.chefcalculator.UnitsList;
+import com.lutka.chefcalculator.models.Product;
+import com.lutka.chefcalculator.models.Unit;
+
 
 public class AdvancedConvertionPage extends Fragment implements OnItemSelectedListener, TextWatcher
 {	
 	//public static final String  sharedPreferencesTag = "chefcalculator";
 	
-	ArrayList<Product> listOfProduct;	
+	ArrayList<Product> listOfProduct;
 	ArrayList<Unit> listOfUnits;
 	
 	Spinner spinnerIn, spinnerOut, spinnerProduct;

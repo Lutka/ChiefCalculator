@@ -1,4 +1,4 @@
-package com.lutka.chefcalculator;
+package com.lutka.chefcalculator.pages;
 
 import java.util.ArrayList;
 
@@ -10,12 +10,14 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.webkit.WebView.FindListener;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.widget.TextView;
+
+import com.lutka.chefcalculator.R;
+import com.lutka.chefcalculator.models.Temperature;
 
 public class TemperatureConvertionPage extends Fragment implements OnItemSelectedListener
 {
@@ -34,9 +36,9 @@ public class TemperatureConvertionPage extends Fragment implements OnItemSelecte
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState) 
 	{
-		
+
 		View layout = inflater.inflate(R.layout.temperature_fragment, container, false);
-		
+
 		fahrenheitValue = (TextView) layout.findViewById(R.id.fahrenheitValue);
 		celsiusValue = (TextView) layout.findViewById(R.id.celsiusValue);
 		gasValue = (TextView) layout.findViewById(R.id.gasValue);

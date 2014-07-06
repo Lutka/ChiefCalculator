@@ -1,4 +1,4 @@
-package com.lutka.chefcalculator;
+package com.lutka.chefcalculator.pages;
 
 import java.util.ArrayList;
 
@@ -19,7 +19,10 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
 
-import com.lutka.chefcalculator.Unit.UnitType;
+import com.lutka.chefcalculator.R;
+import com.lutka.chefcalculator.UnitsList;
+import com.lutka.chefcalculator.models.Unit;
+import com.lutka.chefcalculator.models.Unit.UnitType;
 
 public class ConvertionPage extends Fragment implements OnItemSelectedListener, TextWatcher
 {
@@ -115,7 +118,7 @@ public class ConvertionPage extends Fragment implements OnItemSelectedListener, 
 	
 	public ArrayList<Unit> volumeItems(int pageNumber)
 	{
-		UnitsList unitList = new UnitsList(getActivity());	
+		UnitsList unitList = new UnitsList(getActivity());
 			
 		if(pageNumber == 1)
 		{
