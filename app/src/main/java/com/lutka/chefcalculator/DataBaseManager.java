@@ -16,10 +16,10 @@ import java.util.List;
 /**
  * Created by Lutka on 06/07/2014.
  */
-public class DatabaseManager extends MSQLiteOpenHelper
+public class DataBaseManager extends MSQLiteOpenHelper
 {
     Context context;
-    public DatabaseManager(Context context)
+    public DataBaseManager(Context context)
     {
         super(context, "kitchen.db", null, 1, new Class[]{Product.class, Unit.class});
         this.context = context;
