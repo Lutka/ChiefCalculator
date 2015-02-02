@@ -1,6 +1,4 @@
 package com.lutka.chefcalculator.pages;
-import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 import android.content.Context;
@@ -20,7 +18,7 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
 
-import com.lutka.chefcalculator.DatabaseManager;
+import com.lutka.chefcalculator.DataBaseManager;
 import com.lutka.chefcalculator.R;
 import com.lutka.chefcalculator.models.Product;
 import com.lutka.chefcalculator.models.Unit;
@@ -50,7 +48,7 @@ public class AdvancedConvertionPage extends Fragment implements OnItemSelectedLi
 		spinnerOut = (Spinner) layout.findViewById(R.id.outMeasurement);
 		spinnerProduct = (Spinner) layout.findViewById(R.id.productType);
 
-        DatabaseManager dbManager = new DatabaseManager(getActivity());
+        DataBaseManager dbManager = new DataBaseManager(getActivity());
         
 		listOfProduct = dbManager.getSortedProducts();
 
